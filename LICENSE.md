@@ -1,3 +1,5 @@
+Rocketseat - Next Level Week - License reference provided by Rocketseat
+
 MIT License
 
 Copyright (c) 2020 Rocketseat
