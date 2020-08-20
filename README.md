@@ -30,7 +30,7 @@ Proffy is an online study platform that helps teacher and students to connect. T
 
 ## Layout
 
-You may check the project layout [using the link](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web). Remember to create an account on [Figma](http://figma.com/) in order to access it.
+You may check the project layout [using the link - WEB](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web) and [using the link - MOBILE](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile). Remember to create an account on [Figma](http://figma.com/) in order to access it.
 
 ## License
 
