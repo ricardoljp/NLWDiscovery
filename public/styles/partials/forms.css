@@ -1,3 +1,4 @@
+
 .select-block label,
 .input-block label,
 .textarea-block label {
@@ -22,7 +23,8 @@
 .textarea-block textarea {
     padding: 1.2rem 1.6rem;
     height: 16rem;
-    resize: verti;
+
+    resize: vertical;
 }
 
 .input-block,
@@ -36,10 +38,10 @@
 
     width: calc(100% - 3.2rem);
     height: 2px;
-    background: var(--color-primary-light);
+    background:var(--color-primary-light);
+    
     position: absolute;
     left: 1.6rem;
-    right: 1.6rem;
     bottom: 0px;
 }
 
@@ -47,19 +49,4 @@ label small {
     font-size: 1.2rem;
     padding-left: 1.2rem;
     color: var(--color-small-info);
-}
-
-/* ADICIONADO MATERIAL NOS 2:23  */
-@media (min-width:700px) {
-     
-    .select-block:focus-within::after,
-    .input-block:focus-within::after {
-        
-        bottom: 0px;
-    }
-
-    .textarea-block:focus-within::after  {
-        bottom: 5px;
-    }
-
 }

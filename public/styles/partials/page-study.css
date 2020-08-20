@@ -18,26 +18,23 @@
 #search-teachers button {
     width: 100%;
     height: 5.6rem;
-    background: var(--color-secondary);
+     background: var(--color-secondary);
     color: var(--color-button-text);
     border: 0;
-    border-radius: 0.8rem;
+    border-radius: .8rem;
     cursor: pointer;
     font: 700 1.6rem Archivo;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+
     transition: background 0.2s;
     margin-top: 3.2rem;
-    outline: none;
 }
 
 #search-teachers button:hover {
     background-color: var(--color-secondary-dark);
 }
-
-
 
 #page-study main {
     margin: 3.2rem auto;
@@ -47,13 +44,13 @@
 .teacher-item {
     background-color: var(--color-box-base);
     border: 1px solid var(--color-line-in-white);
-    border-radius: 0.8rem;
+    border-radius: .8rem;
     margin-top: 2.4rem;
 }
 
 .teacher-item header {
     padding: 3.2rem 2rem;
-    display: flex;
+    display:flex;
     align-items: center;
 }
 
@@ -70,16 +67,16 @@
 .teacher-item header div strong {
     font: 700 2.4rem Archivo;
     display: block;
-    color: var(--color-text-tittle); 
+    color: var(--color-text-title);
 }
 
 .teacher-item header div span {
     font-size: 1.6rem;
     display: block;
-    margin-top: 0.4rem;
+    margin-top:  .4rem;
 }
 
-.teacher-item p {
+.teacher-item > p {
     padding: 0 2rem;
     font-size: 1.6rem;
     line-height: 2.8rem;
@@ -89,6 +86,7 @@
     padding: 3.2rem 2rem;
     background-color: var(--color-box-footer);
     border-top: 1px solid var(--color-line-in-white);
+    margin-top: 3.2rem;
 
     display: flex;
     align-items: center;
@@ -105,8 +103,8 @@
     font-size: 1.6rem;
     color: var(--color-primary);
     display: block;
-
 }
+
 
 .teacher-item footer .button {
     width: 20rem;
@@ -114,32 +112,63 @@
     background: var(--color-secondary);
     color: var(--color-button-text);
     border: 0;
-    border-radius: 0.8rem;
+    border-radius: .8rem;
     cursor: pointer;
     font: 700 1.4rem Archivo;
-    outline: none;
-
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
     text-decoration: none;
-
-    transition: backgroudn 0.2s;
+    
+    transition: background 0.2s;
     margin-left: 1.6rem;
 }
 
 .teacher-item footer .button:hover {
     background: var(--color-secondary-dark);
 }
-/* ADICIONADO MATERIAL NOS 2:23  */
+
+#page-study main .no-results {
+    max-width: 30rem;
+    margin: 12rem auto;
+    text-align: center;
+}
+
+
 @media (min-width:700px) {
     #page-study #container {
         max-width: 100vw;
     }
 
+    .page-header {
+        height: 340px;
+    }
+
+    .page-header .top-bar-container {
+        max-width: 1100px;
+    }
+
+    .page-header .header-content {
+        max-width: 740px;
+
+        margin: 0 auto;
+
+        flex: 1 1;
+        padding-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .page-header .header-content strong {
+        max-width: 350px;
+    }
+
     .teacher-item header,
-    .teached-item footer {
+    .teacher-item footer {
         padding: 32px;
     }
 
@@ -151,8 +180,6 @@
         bottom: -28px;
     }
 
-    /* RECOMECANDO - ATË AQUI TUDO CERTO DAQUI POR DIANTE É O MAIN */
-
     #page-study main {
         padding: 32px 0;
         max-width: 740px;
@@ -160,11 +187,11 @@
     }
 
     #search-teachers .select-block {
-        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .teacher-item > p {
-        padding: 32px;
+        padding: 0 32px;
     }
 
     .teacher-item footer p strong {
@@ -180,11 +207,6 @@
 
     .teacher-item footer button img {
         margin-right: 16px;
-    }
-
-    .input-block:focus-within::after {
-        
-        bottom: 14px;
     }
 
 }
