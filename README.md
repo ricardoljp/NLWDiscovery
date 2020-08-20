@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="#tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#project">Project Info</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
@@ -12,10 +12,10 @@
 <br>
 
 <p align="center">
-  <img alt="Proffy" src=".github/proffy.png" width="50%">
+  <img alt="Proffy" src=".github/proffy.png" width="75%">
 </p>
 
-## Tecnologies
+## Technologies
 
 This project was developed using the following technologies.
 
